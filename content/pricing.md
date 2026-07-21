@@ -1,6 +1,6 @@
 ---
 title: "Pricing"
-banner: "images/pricing/pricing-banner.jpg"
+heroFigure: "images/shared/cylinders.png"
 description: "Pricing for hydrostatic testing, visual inspections, Visual Eddy testing, cylinder cleaning, propane inspection and scuba equipment repair."
 ---
 

@@ -1,8 +1,12 @@
 {{ $img := .Params.heroImage }}
-<section class="hero{{ if $img }} hero--photo{{ end }}">
+{{ $fig := .Params.heroFigure }}
+<section class="hero{{ if $img }} hero--photo{{ end }}{{ if $fig }} hero--figure{{ end }}">
   {{ with $img }}<img class="hero-bg" src="{{ . | relURL }}" alt="" loading="eager" decoding="async">{{ end }}
   <div class="wrap hero-inner">
-    <h1>{{ .Title }}</h1>
-    {{ with .Params.subtitle }}<p class="hero-sub">{{ . }}</p>{{ end }}
+    {{ with $fig }}<img class="hero-fig" src="{{ . | relURL }}" alt="A group of cylinders: scuba tanks, an oxygen cylinder, a fire extinguisher and a propane bottle" loading="eager" decoding="async">{{ end }}
+    <div class="hero-text">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.subtitle }}<p class="hero-sub">{{ . }}</p>{{ end }}
+    </div>
   </div>
 </section>

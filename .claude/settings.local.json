@@ -19,7 +19,16 @@
       "Bash(sips -g pixelWidth -g pixelHeight banner.jpg)",
       "Bash(python3 -c \"import PIL; print\\('PIL', PIL.__version__\\)\")",
       "Bash(magick banner.jpg -crop 996x218+0+0 +repage banner-hero.jpg)",
-      "Bash(sips -g pixelWidth -g pixelHeight banner-hero.jpg)"
+      "Bash(sips -g pixelWidth -g pixelHeight banner-hero.jpg)",
+      "Bash(mkdir -p shared)",
+      "Bash(magick hydrostatic-test/hydrostatic-test-banner.jpg -crop 470x235+80+20 +repage /tmp/cyl-test.jpg)",
+      "Bash(sips -g pixelWidth -g pixelHeight /tmp/cyl-test.jpg)",
+      "Bash(magick hydrostatic-test/hydrostatic-test-banner.jpg -crop 250x252+83+5 +repage /tmp/cyl-test2.jpg)",
+      "Bash(sips -g pixelWidth -g pixelHeight /tmp/cyl-test2.jpg)",
+      "Bash(magick hydrostatic-test/hydrostatic-test-banner.jpg -crop 214x252+83+5 +repage /tmp/cyl3.png)",
+      "Bash(magick /tmp/cyl3.png -fuzz 12% -fill none -draw \"color 0,0 floodfill\" -fuzz 12% -fill none -draw \"color 213,0 floodfill\" -fuzz 12% -fill none -draw \"color 0,251 floodfill\" -fuzz 12% -fill none -draw \"color 213,251 floodfill\" -trim +repage shared/cylinders.png)",
+      "Bash(sips -g pixelWidth -g pixelHeight shared/cylinders.png)",
+      "Bash(magick -size 260x260 xc:'#0a2a43' shared/cylinders.png -gravity center -composite /tmp/cyl-on-dark.png)"
     ]
   }
 }

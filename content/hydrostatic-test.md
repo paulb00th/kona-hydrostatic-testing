@@ -1,6 +1,6 @@
 ---
 title: "What is a Hydrostatic Test?"
-banner: "images/hydrostatic-test/hydrostatic-test-banner.jpg"
+heroFigure: "images/shared/cylinders.png"
 description: "How a DOT hydrostatic test works, test pressures for aluminum and steel scuba cylinders, and when a cylinder is condemned."
 ---
 
