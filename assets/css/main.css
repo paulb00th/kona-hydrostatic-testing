@@ -97,11 +97,13 @@ h3 { font-size: 1.2rem; }
 .hero h1 { color: #fff; margin: 0; font-size: clamp(1.8rem, 5vw, 3rem); }
 .hero-sub { color: #dbeafc; margin: .6rem 0 0; font-size: 1.15rem; max-width: 46ch; }
 
-/* Figure hero (inner pages): shared cylinders cutout beside the title */
+/* Figure hero (inner pages): shared cylinders photo in a white card beside the title */
 .hero--figure .hero-fig {
-  flex: none; width: clamp(96px, 20vw, 168px); height: auto;
-  filter: drop-shadow(0 6px 16px rgba(0,0,0,.45));
+  flex: none; width: clamp(116px, 22vw, 190px); height: auto;
+  background: #fff; padding: 10px; border-radius: 12px;
+  box-shadow: 0 8px 22px rgba(0,0,0,.3);
 }
+@media (max-width: 520px) { .hero--figure .hero-fig { width: 104px; padding: 7px; } }
 
 /* Photo hero (home): cropped cylinder photo behind an ocean tint */
 .hero--photo { position: relative; overflow: hidden; }

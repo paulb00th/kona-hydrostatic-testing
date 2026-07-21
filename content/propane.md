@@ -1,6 +1,6 @@
 ---
 title: "Propane"
-heroFigure: "images/shared/cylinders.png"
+heroFigure: "images/shared/cylinders.jpg"
 description: "Propane cylinder inspection and recertification in Kailua-Kona — $15, done while you wait, by appointment."
 ---
 

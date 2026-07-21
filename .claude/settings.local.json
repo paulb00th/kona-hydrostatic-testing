@@ -28,7 +28,14 @@
       "Bash(magick hydrostatic-test/hydrostatic-test-banner.jpg -crop 214x252+83+5 +repage /tmp/cyl3.png)",
       "Bash(magick /tmp/cyl3.png -fuzz 12% -fill none -draw \"color 0,0 floodfill\" -fuzz 12% -fill none -draw \"color 213,0 floodfill\" -fuzz 12% -fill none -draw \"color 0,251 floodfill\" -fuzz 12% -fill none -draw \"color 213,251 floodfill\" -trim +repage shared/cylinders.png)",
       "Bash(sips -g pixelWidth -g pixelHeight shared/cylinders.png)",
-      "Bash(magick -size 260x260 xc:'#0a2a43' shared/cylinders.png -gravity center -composite /tmp/cyl-on-dark.png)"
+      "Bash(magick -size 260x260 xc:'#0a2a43' shared/cylinders.png -gravity center -composite /tmp/cyl-on-dark.png)",
+      "Bash(magick pricing/pricing-banner.jpg -format \"bg near corner: %[pixel:p{10,10}]\\\\n\" info:)",
+      "Bash(magick pricing/pricing-banner.jpg -crop 455x243+70+8 +repage /tmp/prod1.jpg)",
+      "Bash(sips -g pixelWidth -g pixelHeight /tmp/prod1.jpg)",
+      "Bash(rm -f shared/cylinders.png)",
+      "Bash(magick pricing/pricing-banner.jpg -crop 490x243+55+6 +repage -fuzz 4% -trim +repage shared/cylinders.jpg)",
+      "Bash(sips -g pixelWidth -g pixelHeight shared/cylinders.jpg)",
+      "Bash(magick pricing/pricing-banner.jpg -crop 455x243+55+6 +repage -fuzz 6% -trim +repage shared/cylinders.jpg)"
     ]
   }
 }

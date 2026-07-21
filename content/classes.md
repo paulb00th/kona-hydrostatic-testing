@@ -1,6 +1,6 @@
 ---
 title: "Classes"
-heroFigure: "images/shared/cylinders.png"
+heroFigure: "images/shared/cylinders.jpg"
 description: "PSI/PCI cylinder inspector classes and PADI scuba instruction in Kona, Hawaii — from Visual Cylinder Inspector to Open Water and Divemaster."
 ---
 
