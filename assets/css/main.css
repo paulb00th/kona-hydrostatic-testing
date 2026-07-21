@@ -92,9 +92,19 @@ h3 { font-size: 1.2rem; }
   color: #fff;
   border-bottom: 4px solid var(--accent);
 }
-.hero-inner { padding-block: clamp(2rem, 6vw, 3.6rem); }
+.hero-inner { padding-block: clamp(2rem, 6vw, 3.6rem); position: relative; z-index: 2; }
 .hero h1 { color: #fff; margin: 0; font-size: clamp(1.8rem, 5vw, 3rem); }
 .hero-sub { color: #dbeafc; margin: .6rem 0 0; font-size: 1.15rem; max-width: 46ch; }
+
+/* Photo hero (home): cropped cylinder photo behind an ocean tint */
+.hero--photo { position: relative; overflow: hidden; }
+.hero--photo .hero-inner { padding-block: clamp(2.5rem, 8vw, 4.6rem); }
+.hero-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; z-index: 0; }
+.hero--photo::after {
+  content: ""; position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(115deg, rgba(10,42,67,.9) 0%, rgba(17,75,115,.72) 55%, rgba(29,111,165,.5) 100%);
+}
+.hero--photo .hero-sub { color: #eaf2f8; }
 
 /* ---- Prose ------------------------------------------------------------ */
 .prose { padding-block: 2rem 3rem; }

@@ -15,7 +15,11 @@
       "Bash(curl -s -o /dev/null -w \"local server: HTTP %{http_code}\\\\n\" http://127.0.0.1:1313/)",
       "Read(//tmp/claude-501/-Users-paulbooth-Claude-Stuff-Kona-Hydrostatic-Testing/b93f3524-a4f6-4cf0-a764-7551c79e0dc2/scratchpad/**)",
       "Bash(python3 -c \"print\\(open\\('public/index.html'\\).read\\(\\).split\\('<main'\\)[1][:260]\\)\")",
-      "Bash(curl -s -o /dev/null -w \"localhost:1313 HTTP %{http_code}\\\\n\" http://127.0.0.1:1313/)"
+      "Bash(curl -s -o /dev/null -w \"localhost:1313 HTTP %{http_code}\\\\n\" http://127.0.0.1:1313/)",
+      "Bash(sips -g pixelWidth -g pixelHeight banner.jpg)",
+      "Bash(python3 -c \"import PIL; print\\('PIL', PIL.__version__\\)\")",
+      "Bash(magick banner.jpg -crop 996x218+0+0 +repage banner-hero.jpg)",
+      "Bash(sips -g pixelWidth -g pixelHeight banner-hero.jpg)"
     ]
   }
 }

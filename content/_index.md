@@ -1,6 +1,6 @@
 ---
 title: "Kona Hydrostatic Testing"
-banner: "images/about-us/banner.jpg"
+heroImage: "images/about-us/banner-hero.jpg"
 subtitle: "DOT-authorized cylinder testing in Kailua-Kona, Hawaii"
 description: "DOT-authorized hydrostatic testing and visual inspection of SCUBA, O2, fire extinguisher, SCBA, paintball and propane cylinders in Kailua-Kona, Hawaii."
 ---
