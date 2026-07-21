@@ -1,0 +1,51 @@
+# NOTE: When you create the GitHub repo, set baseURL to your Pages URL.
+# For a project page it is:  https://<username>.github.io/<repo-name>/
+# The GitHub Actions workflow below overrides this automatically at build time,
+# so you normally only need to edit it if you build/deploy by hand.
+baseURL = "https://USERNAME.github.io/kona-hydrostatic-testing/"
+languageCode = "en-us"
+title = "Kona Hydrostatic Testing"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+# Contact + business details live here so they're defined in ONE place
+# and reused across every page (footer, schema, etc.).
+[params]
+  phone = "(808) 987-1750"
+  phoneHref = "+18089871750"
+  email = "time2dive@hawaii.rr.com"
+  addressLine = "77-6518 Sea View Circle"
+  addressCity = "Kailua-Kona, HI 96740"
+  hours = "Thursday–Saturday, 8am–5pm (other days by appointment)"
+  facebook = "https://www.facebook.com/Kona-Hydrostatic-Testing-652240884880794/"
+  mapQuery = "77-6518 Sea View Circle, Kailua-Kona, Hawaii 96740"
+  description = "DOT-authorized hydrostatic testing and visual inspection of SCUBA, O2, fire extinguisher, SCBA, paintball and propane cylinders in Kailua-Kona, Hawaii."
+
+[menus]
+  [[menus.main]]
+    name = "About Us"
+    pageRef = "/"
+    weight = 1
+  [[menus.main]]
+    name = "Hydrostatic Test"
+    pageRef = "/hydrostatic-test"
+    weight = 2
+  [[menus.main]]
+    name = "Visual Inspection"
+    pageRef = "/visual-inspection"
+    weight = 3
+  [[menus.main]]
+    name = "Pricing"
+    pageRef = "/pricing"
+    weight = 4
+  [[menus.main]]
+    name = "Propane"
+    pageRef = "/propane"
+    weight = 5
+  [[menus.main]]
+    name = "Classes"
+    pageRef = "/classes"
+    weight = 6
+
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML in content (map embed, image figures)

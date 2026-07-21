@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:kona-hydrostatic-testing.com)",
+      "Bash(curl -sL --max-time 30 http://kona-hydrostatic-testing.com/ -o /private/tmp/claude-501/-Users-paulbooth-Claude-Stuff-Kona-Hydrostatic-Testing/b93f3524-a4f6-4cf0-a764-7551c79e0dc2/scratchpad/index.html -w \"HTTP %{http_code}  final=%{url_effective}  bytes=%{size_download}\\\\n\")",
+      "Bash(python3 -)",
+      "Bash(rm -f hugo.toml)",
+      "Bash(mkdir -p layouts/_default layouts/partials content assets/css)",
+      "Bash(hugo --minify --gc)",
+      "Bash(python3 -c \"print\\(open\\('public/hydrostatic-test/index.html'\\).read\\(\\).split\\('<main'\\)[1][:700]\\)\")",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git -c 'user.name=Kona Hydrostatic Testing' -c user.email=max@projectchiron.co.uk commit -q -m ' *)"
+    ]
+  }
+}

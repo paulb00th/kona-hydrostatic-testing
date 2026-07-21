@@ -1,0 +1,7 @@
+{{- /* In-content image whose src is resolved against baseURL so it works on a
+       subpath deploy (e.g. GitHub Project Pages). Usage:
+       {{< img src="images/foo/bar.jpg" alt="…" caption="…" >}} */ -}}
+<figure>
+  <img src="{{ .Get "src" | relURL }}" alt="{{ .Get "alt" }}" loading="lazy" decoding="async">
+  {{- with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end -}}
+</figure>

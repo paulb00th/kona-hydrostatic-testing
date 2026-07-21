@@ -1,0 +1,12 @@
+{{ $banner := .Params.banner }}
+<section class="hero">
+  {{ with $banner }}
+  <img class="hero-img" src="{{ . | relURL }}" alt="" loading="eager" decoding="async">
+  {{ end }}
+  <div class="hero-overlay">
+    <div class="wrap">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.subtitle }}<p class="hero-sub">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>

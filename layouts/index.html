@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ partial "hero.html" . }}
+  <div class="wrap home-grid">
+    <article class="prose">
+      {{ .Content }}
+    </article>
+    <aside class="home-aside">
+      <div class="info-card">
+        <h2>Visit Us</h2>
+        <p>{{ .Site.Params.addressLine }}<br>{{ .Site.Params.addressCity }}</p>
+        <p class="info-hours"><strong>Hours:</strong><br>{{ .Site.Params.hours }}</p>
+        <p><a class="btn" href="tel:{{ .Site.Params.phoneHref }}">Call {{ .Site.Params.phone }}</a></p>
+      </div>
+      <div class="map-embed">
+        <iframe
+          title="Map to Kona Hydrostatic Testing"
+          loading="lazy"
+          src="https://www.google.com/maps?q={{ .Site.Params.mapQuery | urlquery }}&output=embed"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </aside>
+  </div>
+{{ end }}
