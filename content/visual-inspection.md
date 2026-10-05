@@ -2,6 +2,11 @@
 title: "What is a Visual Inspection?"
 heroImage: "images/about-us/banner-hero.jpg"
 description: "What a scuba cylinder visual inspection covers, the Visual Eddy test for 6351 aluminum cylinders, and how to keep your cylinder safe."
+pageImages:
+  - src: "images/visual-inspection/IMG_2303.jpg"
+    alt: "Interior visual inspection of a scuba cylinder"
+  - src: "images/visual-inspection/DSC_1416.jpg"
+    alt: "Cylinder inspection equipment"
 ---
 
 ## What is a visual inspection and why should I have one?
@@ -39,11 +44,6 @@ years, generally at the time of the hydrostatic test.
 
 Most dive operations will not fill a scuba cylinder that does not have a current
 visual inspection.
-
-<div class="figure-row">
-{{< img src="images/visual-inspection/IMG_2303.jpg" alt="Interior visual inspection of a scuba cylinder" >}}
-{{< img src="images/visual-inspection/DSC_1416.jpg" alt="Cylinder inspection equipment" >}}
-</div>
 
 ## Great, what else can go wrong with my cylinder?
 

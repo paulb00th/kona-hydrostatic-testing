@@ -1,6 +1,18 @@
 {{ define "main" }}
   {{ partial "hero.html" . }}
-  <article class="wrap prose">
-    {{ .Content }}
-  </article>
+  <div class="wrap article-layout{{ with .Params.pageImages }} article-layout--images{{ end }}">
+    <article class="prose article-text">
+      {{ .Content }}
+    </article>
+    {{ with .Params.pageImages }}
+    <aside class="article-images" aria-label="Supporting photographs">
+      {{ range . }}
+      <figure>
+        <img src="{{ .src | relURL }}" alt="{{ .alt }}" loading="lazy" decoding="async">
+        {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+      </figure>
+      {{ end }}
+    </aside>
+    {{ end }}
+  </div>
 {{ end }}

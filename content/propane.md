@@ -2,6 +2,12 @@
 title: "Propane"
 heroImage: "images/about-us/banner-hero.jpg"
 description: "Propane cylinder inspection and recertification in Kailua-Kona — $15, done while you wait, by appointment."
+pageImages:
+  - src: "images/propane/propane1.jpg"
+    alt: "Propane cylinder being inspected"
+  - src: "images/propane/propane3.jpg"
+    alt: "A heavily rusted propane cylinder that will not pass inspection"
+    caption: "If your propane cylinder looks like this… you may want to reconsider having it inspected. It won't pass."
 ---
 
 Kona Hydrostatic Testing now does **propane cylinder inspections**. It is an
@@ -25,11 +31,6 @@ Think of cylinder recertification as an inspection similar to that of your car.
 A vehicle has to be inspected annually so that it may continue to operate safely
 on the road. Similarly, an LP gas cylinder must be inspected so that it may
 continue to operate safely in LP gas service.
-
-<div class="figure-row">
-{{< img src="images/propane/propane1.jpg" alt="Propane cylinder being inspected" >}}
-{{< img src="images/propane/propane3.jpg" alt="A heavily rusted propane cylinder that will not pass inspection" caption="If your propane cylinder looks like this… you may want to reconsider having it inspected. It won't pass." >}}
-</div>
 
 <div class="callout">
 

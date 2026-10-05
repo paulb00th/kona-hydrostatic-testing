@@ -2,6 +2,11 @@
 title: "What is a Hydrostatic Test?"
 heroImage: "images/about-us/banner-hero.jpg"
 description: "How a DOT hydrostatic test works, test pressures for aluminum and steel scuba cylinders, and when a cylinder is condemned."
+pageImages:
+  - src: "images/hydrostatic-test/IMG_2305.jpg"
+    alt: "Scuba cylinder under hydrostatic test"
+  - src: "images/hydrostatic-test/DSC_1416.jpg"
+    alt: "Cylinder testing equipment"
 ---
 
 During a **hydrostatic test** a cylinder is filled with water (hence the
@@ -31,8 +36,3 @@ DOT markings are X'ed out and the cylinder is condemned and should not be used.
 A cylinder that is less than two feet in length and less than two inches in
 diameter does not need a hydrostatic test. A cylinder that does not have a
 current hydrostatic test may not be filled.
-
-<div class="figure-row">
-{{< img src="images/hydrostatic-test/IMG_2305.jpg" alt="Scuba cylinder under hydrostatic test" >}}
-{{< img src="images/hydrostatic-test/DSC_1416.jpg" alt="Cylinder testing equipment" >}}
-</div>
