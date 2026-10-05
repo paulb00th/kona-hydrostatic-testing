@@ -1,6 +1,6 @@
 ---
 title: "What is a Visual Inspection?"
-heroFigure: "images/shared/cylinders.jpg"
+heroImage: "images/about-us/banner-hero.jpg"
 description: "What a scuba cylinder visual inspection covers, the Visual Eddy test for 6351 aluminum cylinders, and how to keep your cylinder safe."
 ---
 
