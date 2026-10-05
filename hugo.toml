@@ -13,7 +13,7 @@ disableKinds = ["taxonomy", "term"]
 [params]
   phone = "(385)246-3483"
   phoneHref = "+13852463483"
-  email = "time2dive@hawaii.rr.com"
+  email = "John@DiveMoore.com"
   addressLine = "82-5931 Wakida Dr."
   addressCity = "Captain Cook, HI 96704"
   hours = "Thursday–Saturday, 8am–5pm (other days by appointment)"
