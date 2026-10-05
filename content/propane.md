@@ -3,9 +3,9 @@ title: "Propane"
 heroImage: "images/about-us/banner-hero.jpg"
 description: "Propane cylinder inspection and recertification in Kailua-Kona — $15, done while you wait, by appointment."
 pageImages:
-  - src: "images/propane/propane1.jpg"
-    alt: "Propane cylinder being inspected"
-  - src: "images/propane/propane3.jpg"
+  - src: "images/propane/Propane01.png"
+    alt: "Propane cylinder"
+  - src: "images/propane/Propane02.png"
     alt: "A heavily rusted propane cylinder that will not pass inspection"
     caption: "If your propane cylinder looks like this… you may want to reconsider having it inspected. It won't pass."
 ---

@@ -3,10 +3,10 @@ title: "What is a Visual Inspection?"
 heroImage: "images/about-us/banner-hero.jpg"
 description: "What a scuba cylinder visual inspection covers, the Visual Eddy test for 6351 aluminum cylinders, and how to keep your cylinder safe."
 pageImages:
-  - src: "images/visual-inspection/IMG_2303.jpg"
-    alt: "Interior visual inspection of a scuba cylinder"
-  - src: "images/visual-inspection/DSC_1416.jpg"
-    alt: "Cylinder inspection equipment"
+  - src: "images/visual-inspection/Vis01.png"
+    alt: "Scuba cylinder neck with hydrostatic test and Visual Eddy markings"
+  - src: "images/visual-inspection/Vis02.png"
+    alt: "Close-up of cylinder neck threads during visual inspection"
 ---
 
 ## What is a visual inspection and why should I have one?

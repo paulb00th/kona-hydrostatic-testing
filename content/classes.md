@@ -32,6 +32,8 @@ I can travel off-island to teach the PSI/PCI classes; travel expenses are an
 additional charge. If you want to come to the Big Island for classes, I can pick
 you up at the airport.
 
+{{< text-image src="images/classes/DIve01.png" alt="Two scuba divers swimming over a coral reef" >}}
+
 ## Scuba Classes
 
 Kona Hydrostatic Testing offers a variety of scuba classes. I am a **PADI scuba
@@ -41,3 +43,5 @@ everything from Open Water Diver to PADI Divemaster.
 I charge **$100 per person, per day**. A typical Open Water scuba class takes
 three days. I also teach the **PADI First Responder** class (basic first aid)
 and a **Vintage Scuba Diver** class.
+
+{{< /text-image >}}

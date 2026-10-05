@@ -3,10 +3,10 @@ title: "What is a Hydrostatic Test?"
 heroImage: "images/about-us/banner-hero.jpg"
 description: "How a DOT hydrostatic test works, test pressures for aluminum and steel scuba cylinders, and when a cylinder is condemned."
 pageImages:
-  - src: "images/hydrostatic-test/IMG_2305.jpg"
-    alt: "Scuba cylinder under hydrostatic test"
-  - src: "images/hydrostatic-test/DSC_1416.jpg"
-    alt: "Cylinder testing equipment"
+  - src: "images/hydrostatic-test/Hydro01.png"
+    alt: "Hydrostatic test date stamped on a scuba cylinder"
+  - src: "images/hydrostatic-test/Hydro02.png"
+    alt: "Scuba cylinder with valve and visual inspection sticker"
 ---
 
 During a **hydrostatic test** a cylinder is filled with water (hence the

@@ -1,0 +1,6 @@
+<div class="section-with-image">
+  <div class="section-copy">{{ .Inner | markdownify }}</div>
+  <figure class="section-image">
+    <img src="{{ .Get "src" | relURL }}" alt="{{ .Get "alt" }}" loading="lazy" decoding="async">
+  </figure>
+</div>

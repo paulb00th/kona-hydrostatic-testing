@@ -207,3 +207,14 @@ body.directions-open { overflow: hidden; }
   .article-layout--images .article-text > :first-child { margin-top: 0; }
   .article-images { margin-top: 0; }
 }
+
+/* ---- Image beside a single text section ------------------------------- */
+.section-with-image { display: grid; gap: 1.5rem; align-items: start; margin-top: 2.2rem; }
+.section-copy { min-width: 0; }
+.section-copy > :first-child { margin-top: 0; }
+.section-image { margin: 0; }
+.prose .section-image img { margin: 0 auto; }
+@media (min-width: 1000px) {
+  .section-with-image { grid-template-columns: minmax(0, 68ch) minmax(0, 1fr); gap: 2rem; align-items: center; }
+  .section-copy > :last-child { margin-bottom: 0; }
+}
