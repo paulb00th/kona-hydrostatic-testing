@@ -172,3 +172,21 @@ h3 { font-size: 1.2rem; }
 /* ---- Motion / a11y ---------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* ---- Printable directions -------------------------------------------- */
+button.btn { font: inherit; font-weight: 700; border: 0; cursor: pointer; }
+button.btn:disabled { opacity: .55; cursor: wait; }
+.directions-dialog {
+  width: min(960px, calc(100% - 2rem)); height: 90vh; height: 90dvh;
+  max-height: calc(100% - 2rem); padding: 1rem; border: 0;
+  border-radius: var(--radius); box-shadow: var(--shadow); color: var(--ink);
+}
+.directions-dialog[open] { display: flex; flex-direction: column; }
+.directions-dialog::backdrop { background: rgba(10, 42, 67, .75); }
+.directions-toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; }
+.directions-toolbar h2 { margin: 0; font-size: 1.35rem; }
+.directions-actions { display: flex; gap: .6rem; }
+.directions-close { background: var(--bg-soft); }
+.directions-help { font-size: .9rem; margin: .8rem 0; }
+.directions-dialog iframe { width: 100%; flex: 1; min-height: 0; border: 1px solid var(--line); background: var(--bg-soft); }
+body.directions-open { overflow: hidden; }

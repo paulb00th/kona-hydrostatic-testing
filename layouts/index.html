@@ -10,6 +10,7 @@
         <p>{{ .Site.Params.addressLine }}<br>{{ .Site.Params.addressCity }}</p>
         <p class="info-hours"><strong>Hours:</strong><br>{{ .Site.Params.hours }}</p>
         <p><a class="btn" href="tel:{{ .Site.Params.phoneHref }}">Call {{ .Site.Params.phone }}</a></p>
+        <p><a class="btn" id="directions-open" href="{{ "Kona-Hydrostatic-Testing-Flyer.pdf" | relURL }}" target="_blank" rel="noopener" aria-haspopup="dialog">Printable Directions</a></p>
       </div>
       <div class="map-embed">
         <iframe
@@ -20,4 +21,16 @@
       </div>
     </aside>
   </div>
+  <dialog id="directions-dialog" class="directions-dialog" aria-labelledby="directions-title">
+    <div class="directions-toolbar">
+      <h2 id="directions-title">Printable Directions</h2>
+      <div class="directions-actions">
+        <button class="btn" id="directions-print" type="button" disabled>Print flyer</button>
+        <button class="btn directions-close" id="directions-close" type="button" autofocus>Close</button>
+      </div>
+    </div>
+    <p class="directions-help">Prefer the original file? <a href="{{ "Kona-Hydrostatic-Testing-Flyer.pdf" | relURL }}" target="_blank" rel="noopener">open the PDF in a new tab</a> to save or print it.</p>
+    <iframe id="directions-frame" title="Kona Hydrostatic Testing directions flyer" data-src="{{ "directions-flyer.html" | relURL }}"></iframe>
+  </dialog>
+  <script src="{{ "js/directions.js" | relURL }}" defer></script>
 {{ end }}
