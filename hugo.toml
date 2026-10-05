@@ -11,14 +11,14 @@ disableKinds = ["taxonomy", "term"]
 # Contact + business details live here so they're defined in ONE place
 # and reused across every page (footer, schema, etc.).
 [params]
-  phone = "(808) 987-1750"
-  phoneHref = "+18089871750"
+  phone = "(385)246-3483"
+  phoneHref = "+13852463483"
   email = "time2dive@hawaii.rr.com"
-  addressLine = "77-6518 Sea View Circle"
-  addressCity = "Kailua-Kona, HI 96740"
+  addressLine = "82-5931 Wakida Dr."
+  addressCity = "Captain Cook, HI 96704"
   hours = "Thursday–Saturday, 8am–5pm (other days by appointment)"
   facebook = "https://www.facebook.com/Kona-Hydrostatic-Testing-652240884880794/"
-  mapQuery = "77-6518 Sea View Circle, Kailua-Kona, Hawaii 96740"
+  mapQuery = "82-5931 Wakida Dr., Captain Cook, Hawaii 96704"
   description = "DOT-authorized hydrostatic testing and visual inspection of SCUBA, O2, fire extinguisher, SCBA, paintball and propane cylinders in Kailua-Kona, Hawaii."
 
 [menus]
